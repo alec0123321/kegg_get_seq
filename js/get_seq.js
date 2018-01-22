@@ -5,7 +5,7 @@ const fs = require('fs')
 const url = 'http://www.genome.jp/dbget-bin/www_bget?-f+-n+n+'
 let full_seq = ''
 
-fs.readFile('../seq_list/gene_list.txt', (err,content)=>{
+fs.readFile('../sample/gene_list.txt', (err,content)=>{
   if(err){
     console.log('File error')
   }else{
@@ -32,7 +32,7 @@ fs.readFile('../seq_list/gene_list.txt', (err,content)=>{
             full_seq = full_seq + len[i] + '\n'
           }
           // console.log(full_seq);
-          let path = '../seq_list/full_seq.fa'
+          let path = '../result/full_seq.fa'
           fs.writeFile(path, full_seq, (err)=>{
             if(err) throw err
             console.log('Full_seq.fa it\'s done');
