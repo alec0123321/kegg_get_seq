@@ -1,0 +1,65 @@
+NO.1
+-----------------------------------------------------
+http://www.genome.jp/kegg-bin/show_organism?org=T00352
+
+Full name	Candidatus Koribacter versatilis
+Definition	Candidatus Koribacter versatilis Ellin345
+
+https://genome.jgi.doe.gov/portal/aciel/aciel.home.html
+
+NO.2
+-----------------------------------------------------
+http://www.genome.jp/kegg-bin/show_organism?org=T01847
+
+Full name	Brachyspira intermedia
+Definition	Brachyspira intermedia PWS/A
+
+http://www.exopol.com/es/exoone-qpcr-kit/producto.php?lang=es&tipo=swine&name=EXOone%20Brachyspira%20intermedia
+
+NO.3
+-----------------------------------------------------
+http://www.genome.jp/kegg-bin/show_organism?org=T04906
+
+Full name	Alkalitalea saponilacus
+Definition	Alkalitalea saponilacus SC/BZ-SP2
+
+http://www.biovector.net/product/206103.html
+http://www.bacterio.net/alkalitalea.html
+
+NO.4
+-----------------------------------------------------
+http://www.genome.jp/kegg-bin/show_organism?org=T01708
+
+Full name	Clostridium sp. BNL1100
+Definition	Clostridium sp. BNL1100
+
+https://catalog.bcrc.firdi.org.tw/BSAS_cart/controller?event=SEARCH&bcrc_no=10640&type_id=2&keyword=Clostridium;;sp.
+
+NO.5
+-----------------------------------------------------
+http://www.genome.jp/kegg-bin/show_organism?org=T03103
+
+Full name	Eutypa lata
+Definition	Eutypa lata UCREL1
+
+http://www.mycobank.org/Biolomics.aspx?Table=Mycobank&MycoBankNr_=140211
+https://genome.jgi.doe.gov/Eutla1/Eutla1.home.html
+
+NO.6
+-----------------------------------------------------
+http://www.genome.jp/kegg-bin/show_organism?org=T03633
+
+Full name	Corynebacterium marinum
+Definition	Corynebacterium marinum DSM 44953
+
+http://www.uniprot.org/proteomes/UP000031928
+https://catalog.bcrc.firdi.org.tw/BSAS_cart/controller
+
+NO.7
+-----------------------------------------------------
+http://www.genome.jp/kegg-bin/show_organism?org=T04650
+
+Full name	Vibrio scophthalmi
+Definition	Vibrio scophthalmi VS-12
+
+https://catalog.bcrc.firdi.org.tw/BSAS_cart/controller
