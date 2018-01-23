@@ -18,10 +18,10 @@ const rl = require('readline')
 
 //make result folder
 let path = [
-  '/Users/ac/Documents/TMRNAseq_v2/result/cluster',
-  '/Users/ac/Documents/TMRNAseq_v2/result/alignment',
-  '/Users/ac/Documents/TMRNAseq_v2/result/otu_table',
-  '/Users/ac/Documents/TMRNAseq_v2/result/uc'
+  '/Users/ac/Documents/TMRNAseq_seq/result/cluster',
+  '/Users/ac/Documents/TMRNAseq_seq/result/alignment',
+  '/Users/ac/Documents/TMRNAseq_seq/result/otu_table',
+  '/Users/ac/Documents/TMRNAseq_seq/result/uc'
 ]
 path.forEach((pa)=>{
   fsPath.mkdir(pa)
@@ -35,12 +35,14 @@ prompts.question("Name of output file name, will using on cluster, alignment, ot
   }else{
     //vesearch make cluster file, alignment file, otu_table, uc file for catch clustering classification
     const vsearch = spawn('vsearch',
-     ['--cluster_size','/Users/ac/Documents/TMRNAseq_v2/result/full_seq.fa',
-     '--consout',`/Users/ac/Documents/TMRNAseq_v2/result/cluster/${name}.fa`,
-     '--msaout',`/Users/ac/Documents/TMRNAseq_v2/result/alignment/${name}.fa`,
-     '--otutabout',`/Users/ac/Documents/TMRNAseq_v2/result/otu_table/${name}.txt`,
-     '--uc',`/Users/ac/Documents/TMRNAseq_v2/result/uc/${name}.txt`,
+     ['--cluster_size','/Users/ac/Documents/TMRNAseq_seq/result/full_seq.fa',
+     '--consout',`/Users/ac/Documents/TMRNAseq_seq/result/cluster/${name}.fa`,
+     '--msaout',`/Users/ac/Documents/TMRNAseq_seq/result/alignment/${name}.fa`,
+     '--otutabout',`/Users/ac/Documents/TMRNAseq_seq/result/otu_table/${name}.txt`,
+     '--uc',`/Users/ac/Documents/TMRNAseq_seq/result/uc/${name}.txt`,
+     '--centroids',`/Users/ac/Documents/TMRNAseq_seq/result/uc/${name}_testing.txt`,
      '--id','0.5',
+     '--iddef','1',
      '--clusterout_id',
      '--clusterout_sort'])
 
