@@ -1,16 +1,34 @@
 ---
-__Get gene sequence and clustering from KEGG__
-__Author: Alec Wang__
-__Date: 2018.01.22__
-__version: 2.0__
+__Get gene sequence and clustering from KEGG__  
+
+__Author: Alec Wang__  
+
+__Date: 2018.01.22__  
+
+__version: 2.0__  
 ---
 - require install __[vsearch](https://github.com/torognes/vsearch)__ - clustering tool
 
 ---
 ### folder structure
-| js | seq_list | result |
-|:----:|:------:|:------:|
+| js | sample |
+|:----:|:------:|
 |get_seq.js|f_gene_list.txt|
+|vsearch.js||
+|after_cluster.js||
+|11_get_cluster_seq.js||
+
+### after folder structure
+| js | sample | result |
+|:----:|:------:|:------:|
+|get_seq.js|f_gene_list.txt|after_cluster(folder)|
+|vsearch.js||your_gene_list.txt|alignment(folder)|
+|after_cluster.js||cluster(folder)|
+|11_get_cluster_seq.js||otu_table(folder)|
+|||uc(folder)|
+|||full_seq.fa|
+
+
 
 ## get_seq.js
 > generate
